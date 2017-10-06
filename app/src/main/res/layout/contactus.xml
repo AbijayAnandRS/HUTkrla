@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@mipmap/indu"
+                android:layout_gravity="center"
+
+                />
+                <ImageView
+                    android:id="@+id/androido"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+
+
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    android:src="@drawable/subtracted_circle1"
+                    android:contentDescription="@null"/>
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Induchoodan TG"
+                android:textSize="20dp"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="+917873386325"
+                android:autoLink = "phone"
+                android:textColorLink="@color/colorPrimary"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@mipmap/manu"
+                    android:layout_gravity="center"
+
+                    />
+                <ImageView
+                    android:id="@+id/androidom"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+
+
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    android:src="@drawable/subtracted_circle1"
+                    android:contentDescription="@null"/>
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Manu S Nadeshan"
+                android:textSize="20dp"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="+919439464855"
+                android:autoLink = "phone"
+                android:textColorLink="@color/colorPrimary"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@mipmap/njan"
+                    android:layout_gravity="center"
+
+                    />
+                <ImageView
+                    android:id="@+id/androidon"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+
+
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    android:src="@drawable/subtracted_circle1"
+                    android:contentDescription="@null"/>
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="ABIJAY ANAND"
+                android:textSize="20dp"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="+918281810667"
+                android:autoLink = "phone"
+                android:textColorLink="@color/colorPrimary"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@mipmap/vishnu"
+                    android:layout_gravity="center"
+
+                    />
+                <ImageView
+                    android:id="@+id/androidov"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+
+
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    android:src="@drawable/subtracted_circle1"
+                    android:contentDescription="@null"/>
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="VISHNU PRASAD S"
+                android:textSize="20dp"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="+919078633835"
+                android:autoLink = "phone"
+                android:textColorLink="@color/colorPrimary"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

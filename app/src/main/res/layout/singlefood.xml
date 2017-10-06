@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical" android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+        android:background="@mipmap/veg"
+        android:id="@+id/lnyrlyt1"
+        android:orientation="horizontal"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_margin="20dp"
+            android:layout_height="80dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imageView"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Chicken Curry"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:id="@+id/tvsf1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="MRP :50"
+                android:gravity="center_vertical"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:typeface="normal"
+                android:id="@+id/tvsf2"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abijay Anand RS is a good Boy and that you all know "
+        android:layout_margin="15dp"
+        android:id="@+id/tvsf3"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="0.9"
+        android:layout_margin="10dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:layout_weight="0.3"
+           android:orientation="vertical">
+           <Button
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:text="-"
+               android:textSize="30dp"
+               android:background="@android:color/transparent"
+               android:gravity="center"
+               android:id="@+id/btdecre"
+               android:layout_gravity="center"/>
+
+
+
+
+       </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="0"
+                android:id="@+id/btnmbr"
+                android:background="@drawable/tgf"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="+"
+                android:textSize="20dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/btincre"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="ORDER"
+        android:textColor="#FFF"
+        android:background="@drawable/btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:id="@+id/order_food1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/input_name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAME"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/textView" />
+
+
+
+
+    <TextView
+        android:text="MRP :250"
+        android:textSize="17dp"
+        android:typeface="serif"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textViewprice" />
+
+    <Button
+        android:text="ORDER"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextphonr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/btn"
+        android:textColor="#FFF"
+        android:id="@+id/buttonorder" />
+    <RelativeLayout
+        android:id="@+id/loadingPanelk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="277dp"
+            android:indeterminateTintMode="src_atop"
+            android:indeterminateTint="#3b5998"/>
+    </RelativeLayout>
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="ROLLNO"
+        android:ems="10"
+        android:id="@+id/editTextroll"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/input_name1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="PHONE"
+        android:ems="10"
+        android:id="@+id/editTextphonr"
+        android:layout_below="@+id/editTextroll"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="ENTER DETAILS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_marginTop="32dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text=""
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/buttonorder"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

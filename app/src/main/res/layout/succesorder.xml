@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Confirm your order by paying 50% of money to mentioned Contacts"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:typeface="sans"
+        android:textColor="#000"
+        android:id="@+id/textViewpop"
+        android:layout_marginTop="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="7dp"
+        />
+
+    <TextView
+        android:text="Contact US"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:textColor="#3b5998"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewpop"
+        android:layout_alignRight="@+id/buttonyopgt"
+        android:layout_alignEnd="@+id/buttonyopgt"
+        android:layout_marginTop="14dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView4uuu" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:id="@+id/buttonyopgt"
+        android:textColor="#FFF"
+        android:background="@mipmap/tick"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/textView4uuu"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
